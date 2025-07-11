@@ -77,9 +77,10 @@ main strong {
 main h1 {
     margin-bottom: 0;
 }
-main dl h3 {
+main dl dt {
     margin-bottom: .3rem;
     color: #afae71;
+    font-size: 22px;
     font-weight: 600;
 }
 main dl dd {
