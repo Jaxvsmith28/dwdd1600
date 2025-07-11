@@ -90,7 +90,7 @@ main dl dd {
 }
 main ol {
     margin: 0;
-    padding: 0.rem 30px;
+    padding: 0rem 30px;
 }
 main ol a {
     color: #005c53;
