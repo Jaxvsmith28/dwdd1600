@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jaxon Smith">
+    <meta name="description" content="Learn about the skilled trade of machining">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="machining.css">
+    <title>Machining</title>
+</head>
+
+<body>
+    <!-- start the page head  -->
+    <header>
+        <span>Machining</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">History</a></li>
+            <li><a href="machines.html">Machines</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li class="active"><a href="subscribe.html">Subscribe</a></li>
+        </ul>
+
+    </nav>
+    <!-- start the main content -->
+    <main>
+        <h1>Subscribe to Our Newsletter</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset class="subscriber-info">
+                <legend>Subscriber Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Number<input type="tel" name="phone" placeholder="208-123-4567"></label>
+                <label>Email*<input type="email" name="email" required placeholder="john.jingle1@gmail.com"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Experience with Machining</legend>
+                <label><input type="radio" name="method" value="new">New (1-5 years)</label>
+                <label><input type="radio" name="method" value="5-10yrs">I Dabble (5-10 years)</label>
+                <label><input type="radio" name="method" value="10+yrs">This is my Life (10+ years)</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What Interests You?</legend>
+                <label><input type="checkbox" name="mill" value="selected">Mill</label>
+                <label><input type="checkbox" name="lathe" value="selected">Lathe</label>
+                <label><input type="checkbox" name="edm" value="selected">EDM</label>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Newsletter Frequency</legend>
+                <label>
+                    <select name="frequency">
+                        <option value="none">Please Select</option>
+                        <option value="weekly">Weekly Newsletter</option>
+                        <option value="monthly">Monthly Newsletter</option>
+                        <option value="quarterly">Quarterly Newsletter</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+
+            <input type="submit" value="Subscribe">
+        </form>
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <address>
+            Utah Valley University <br>
+            800 West University Parkway <br>
+            Orem, Utah, 84058 <br>
+            Call for more info at <a href="tel:8001234567">800-123-4567</a>
+        </address>
+        <p>&copy; 2025 &bull; Jaxon Smith &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
