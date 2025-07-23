@@ -173,7 +173,7 @@ div.gallery figcaption {
     height: 6rem;
 }
 .myForm :required {
-    background-color: rgba(191, 19, 4, 0.08);
+    background-color: rgba(191, 19, 4, 0.1);
 }
 
 .myForm [type=submit] {
